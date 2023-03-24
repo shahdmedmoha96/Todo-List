@@ -1,0 +1,83 @@
+
+span{
+    display: inline-block;
+    padding: 10px 0px;
+    font-size: 17px;
+    
+  height:  fit-content;
+}
+.click{
+    cursor: pointer;
+    width: 10%;
+}
+.listItems{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.listItems P{
+    margin: 0;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.name{
+    width: 80%;
+}
+
+
+
+
+.list-todo{
+    background: linear-gradient(
+        90deg,
+        rgba(255, 118, 20, 1) 0%,
+        rgba(255, 84, 17, 1) 100%
+      );
+    margin-bottom: 7px;
+    padding: 3px 12px ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.list-todo:nth-child(4n + 1) {
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+  }
+  
+  .list-todo:nth-child(4n + 2) {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 12, 241, 1) 0%,
+      rgba(250, 0, 135, 1) 100%
+    );
+  }
+  
+  .list-todo:nth-child(4n + 3) {
+    background: linear-gradient(
+      90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%
+    );
+  }
+  .button-clear{
+    margin-top: 50px;
+    width: -moz-fit-content;
+    width: fit-content;
+    background: linear-gradient( 90deg, rgb(82, 151, 40) 0%, rgb(52, 179, 204) 100% );
+    padding: 7px 25px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
